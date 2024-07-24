@@ -3,6 +3,8 @@ montoSujeto2 = prompt("¿Cuanto dinero tienes?");
 montoSujeto3 = prompt("¿Cuanto dinero tienes?");
 
 montoSujeto1 = parseInt(montoSujeto1); //Convertir a entero
+montoSujeto2 = parseInt(montoSujeto2);
+montoSujeto3 = parseInt(montoSujeto3);
 
 if (montoSujeto1 >= 0.6 && montoSujeto1 < 1) {
     alert("Sujeto 1, Compre el palito de agua");
